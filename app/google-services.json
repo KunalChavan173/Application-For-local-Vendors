@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "304742710371",
+    "project_id": "login-register-firebase-ed0a5",
+    "storage_bucket": "login-register-firebase-ed0a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304742710371:android:4d748eb241944c634bcc56",
+        "android_client_info": {
+          "package_name": "com.example.passion_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApnZk7LntF-d9sSfw8nG-nJ5wI7A5iR98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

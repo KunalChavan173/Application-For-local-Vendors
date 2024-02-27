@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context=".Login"
+        android:weightSum="4"
+
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@color/colorPrimary">
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="26dp"
+            android:fontFamily="@font/seg_ui_semibold"
+            android:text="Register Merchant"
+            android:textColor="@color/colorWhite"
+            android:textSize="38dp"
+            android:layout_marginBottom="10dp"
+
+            />
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="689dp"
+            android:layout_weight="3"
+            android:background="@drawable/card_background"
+            android:elevation="36dp">
+
+        <EditText
+                android:id="@+id/editTextMerchantFirstName"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/edit_text_background"
+                android:drawableTint="@color/colorTextBlack"
+                android:fontFamily="@font/seg_ui_semibold"
+                android:hint="First Name"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:textColor="@color/colorTextBlack"
+                android:textColorHint="@color/colorPlaceholder"
+                />
+
+        <EditText
+                android:id="@+id/editTextMerchantLastName"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_below="@id/editTextMerchantFirstName"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/edit_text_background"
+                android:drawableTint="@color/colorTextBlack"
+                android:fontFamily="@font/seg_ui_semibold"
+                android:hint="Last Name"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:textColor="@color/colorTextBlack"
+                android:textColorHint="@color/colorPlaceholder" />
+
+        <EditText
+                android:id="@+id/editTextMerchantEmail"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_below="@id/editTextMerchantLastName"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:drawableEnd="@drawable/user_icon"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/edit_text_background"
+                android:drawableTint="@color/colorTextBlack"
+                android:fontFamily="@font/seg_ui_semibold"
+                android:hint="Email"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:textColor="@color/colorTextBlack"
+                android:textColorHint="@color/colorPlaceholder"
+                />
+
+        <EditText
+                android:id="@+id/editTextMerchantPassword"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_below="@id/editTextMerchantEmail"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="16dp"
+
+                android:drawableEnd="@drawable/lock_icon"
+                android:background="@drawable/edit_text_background"
+                android:drawableTint="@color/colorTextBlack"
+                android:fontFamily="@font/seg_ui_semibold"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:textColor="@color/colorTextBlack"
+                android:textColorHint="@color/colorPlaceholder" />
+
+        <EditText
+                android:id="@+id/editTextMerchantShopName"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_below="@id/editTextMerchantPassword"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/edit_text_background"
+                android:drawableTint="@color/colorTextBlack"
+                android:fontFamily="@font/seg_ui_semibold"
+                android:hint="Shop Name"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:textColor="@color/colorTextBlack"
+                android:textColorHint="@color/colorPlaceholder" />
+
+        <EditText
+                android:id="@+id/editTextMerchantShopAddress"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_below="@id/editTextMerchantShopName"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/edit_text_background"
+                android:drawableTint="@color/colorTextBlack"
+                android:fontFamily="@font/seg_ui_semibold"
+                android:hint="Shop Address"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:textColor="@color/colorTextBlack"
+                android:textColorHint="@color/colorPlaceholder" />
+
+        <EditText
+                android:id="@+id/editTextMerchantShopType"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_below="@id/editTextMerchantShopAddress"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/edit_text_background"
+                android:drawableTint="@color/colorTextBlack"
+                android:fontFamily="@font/seg_ui_semibold"
+                android:hint="Shop Type"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:textColor="@color/colorTextBlack"
+                android:textColorHint="@color/colorPlaceholder" />
+
+
+        <Button
+                android:id="@+id/btnRegisterMerchant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editTextMerchantShopType"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_background"
+                android:fontFamily="@font/seg_ui_semibold"
+                android:text="Register as Merchant"
+                android:textColor="@color/colorButtonText"
+                android:textSize="18dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
